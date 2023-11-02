@@ -240,7 +240,7 @@
     }
 }
 #b3:hover{
-    background-color: beige;
+    background-color: rgb(238, 238, 41);
     transition: all;
     transition-duration: 500ms;
 }
