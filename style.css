@@ -359,3 +359,11 @@
   #ul {
     margin-top: 10px;
   }
+  #graduation{
+    display: flex;
+    flex-direction: column;
+  }
+  #side{
+    margin-left: 120px;
+    
+  }
