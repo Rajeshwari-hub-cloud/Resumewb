@@ -244,3 +244,118 @@
     transition: all;
     transition-duration: 500ms;
 }
+#footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+@media (max-width: 768px) {
+   #footer{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    padding-top: 60px;
+    gap: 15px;
+    font-size: 12px;
+   }
+}
+
+#a-tag {
+    text-decoration: none;
+    color: black;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+  }
+
+  #resume-title{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 40px;
+  }
+
+  #resume-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #year {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 40px;
+  }
+  @media (max-width: 768px) {
+    #year {
+      flex-direction: column;
+      padding: 35px;
+    }
+  }
+  
+  #date {
+    margin-top: 10px;
+    font-weight: light;
+    font-size: 18px;
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    #date {
+      margin-top: 5px;
+    }
+  }
+  
+  #masters {
+    display: flex;
+    gap: 25px;
+  }
+  
+  #education {
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    #education {
+      margin-bottom: 10px;
+    }
+  }
+  
+  #resume-heading {
+    font-family: "Noto Sans", sans-serif;
+    max-width: 400px;
+  }
+  
+  @media (max-width: 768px) {
+    #resume-heading {
+      font-size: 25px;
+    }
+  }
+  
+  #resume-para {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 400px;
+  }
+  
+  #info-box {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  
+  #li {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 18px;
+  }
+  
+  #ul {
+    margin-top: 10px;
+  }
