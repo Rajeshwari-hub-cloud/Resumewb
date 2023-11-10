@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: wheat;
 }
 #circle{
     background-color: cadetblue;
@@ -271,8 +272,9 @@
 
   #resume-title{
     font-size: 60px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 40px;
+    color:cadetblue;
   }
 
   #resume-main{
@@ -304,21 +306,28 @@
     font-weight: light;
     font-size: 18px;
     font-family: "Noto Sans", sans-serif;
+    color:brown
+    
   }
+
   
   @media (max-width: 768px) {
     #date {
       margin-top: 5px;
+      
     }
   }
   
   #masters {
     display: flex;
     gap: 25px;
+    color:orangered
   }
   
   #education {
     font-family: "Noto Sans", sans-serif;
+    color:crimson;
+    
   }
   
   @media (max-width: 768px) {
@@ -343,6 +352,7 @@
     font-size: 20px;
     font-weight: 500;
     max-width: 400px;
+    color: indianred;
   }
   
   #info-box {
@@ -354,16 +364,21 @@
   #li {
     font-family: "Noto Sans", sans-serif;
     font-size: 18px;
+    color: indianred;
   }
   
   #ul {
     margin-top: 10px;
   }
-  #graduation{
-    display: flex;
-    flex-direction: column;
-  }
-  #side{
-    margin-left: 120px;
+  
+#side{
     
+}
+  
+  @media (max-width: 768px) {
+    #side{
+        margin-left: 5px;
+        
+    }
   }
+  
